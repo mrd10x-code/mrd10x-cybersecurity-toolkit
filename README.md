@@ -11,7 +11,7 @@ curl -sSL https://raw.githubusercontent.com/mrd10x-code/mrd10x-cybersecurity-too
 git clone https://github.com/mrd10x-code/mrd10x-cybersecurity-toolkit.git
 cd mrd10x-toolkit
 pip3 install -r requirements.txt
-python3 mrd10x.py
+python3 mrd10x-toolkit.py
 
 ✨ Features
 
@@ -48,18 +48,18 @@ python3 mrd10x.py
 Basic Usage
 
 ```bash
-python3 mrd10x.py
+python3 mrd10x-toolkit.py
 ```
 
 Command Line Options
 
 ```bash
 # Scan specific target
-python3 mrd10x.py --target example.com
+python3 mrd10x-toolkit.py --target example.com
 
 # Custom port range
-python3 mrd10x.py --ports 1-1000
+python3 mrd10x-toolkit.py --ports 1-1000
 
 # Silent mode (output to file)
-python3 mrd10x.py --silent --output scan_results.txt
+python3 mrd10x-toolkit.py --silent --output scan_results.txt
 ```
