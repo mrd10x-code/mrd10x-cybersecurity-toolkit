@@ -1,18 +1,14 @@
-# MR.D10X Cybersecurity Toolkit 🔒
+# 🔒 MR.D10X Cybersecurity Toolkit
 
-Advanced Linux-based cybersecurity assessment toolkit.
+Advanced Linux-based cybersecurity assessment toolkit for educational purposes and authorized penetration testing.
 
-## Features
-- Network & Port Scanning
-- DNS & WHOIS Lookup  
-- Subdomain Discovery
-- Password Analysis
-- Hash Generation
-- File Integrity Checking
-- Website Security Scanning
-- System Information
-
-## Installation
+## 🚀 Quick Install
 ```bash
-chmod +x install.sh
-./install.sh
+# One-command install
+curl -sSL https://raw.githubusercontent.com/username/mrd10x-toolkit/main/install.sh | bash
+
+# Manual install
+git clone https://github.com/username/mrd10x-toolkit.git
+cd mrd10x-toolkit
+pip3 install -r requirements.txt
+python3 mrd10x.py
